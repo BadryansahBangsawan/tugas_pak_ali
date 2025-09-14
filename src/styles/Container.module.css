@@ -1,0 +1,21 @@
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(24, 31, 42, 0.7); /* elegant dark overlay */
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.introduction p {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #e0eaff;
+  text-shadow: 0 0 32px #2563eb, 0 0 8px #13304a;
+  letter-spacing: 0.05em;
+}
