@@ -20,7 +20,7 @@ export default function Login() {
       // Save to localStorage
       localStorage.setItem("user", username);
       localStorage.setItem("token", data.token);
-      window.location.href = "/dictator";
+      window.location.href = "/admin";
     } else {
       setError(data.message || "Login failed");
     }

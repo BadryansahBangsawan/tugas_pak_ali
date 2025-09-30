@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import test1 from "../../Home/page";
 
 export default function Navbar() {
   return (
@@ -25,18 +26,24 @@ export default function Navbar() {
         {/* Navigation links */}
         <div className="flex items-center space-x-8">
           <Link
-            href="page"
+            href="/Home"
             className="text-white/80 hover:text-white transition-colors relative group"
           >
             Home
             <div className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white/50 group-hover:w-full transition-all duration-300"></div>
           </Link>
           <Link
-            href="/"
+            href="/work-experiences"
             className="text-white/80 hover:text-white transition-colors relative group"
           >
             Work Experiences
             <div className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white/50 group-hover:w-full transition-all duration-300"></div>
+          </Link>
+          <Link
+            href="/login"
+            className="px-4 py-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-md transition-all duration-300"
+          >
+            Login
           </Link>
         </div>
       </div>
