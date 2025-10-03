@@ -33,7 +33,7 @@ export default function Navbar() {
             <div className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white/50 group-hover:w-full transition-all duration-300"></div>
           </Link>
           <Link
-            href="/work-experiences"
+            href="/Pages/Work_Experiences"
             className="text-white/80 hover:text-white transition-colors relative group"
           >
             Work Experiences
